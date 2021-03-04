@@ -17,5 +17,4 @@ CXXFLAGS += -g                    # pour debugger
 all:testMontagne
 
 testMontagne: Montagne.o
-main: Montagne.o
 Montagne.o : Montagne.cc Montagne.h
