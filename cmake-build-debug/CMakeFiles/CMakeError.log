@@ -1,0 +1,39 @@
+Compilation of the C compiler identification source "CMakeCCompilerId.c" did not produce an executable in "/home/siddharth/Desktop/projet/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC".
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+cc1plus: fatal error: CMakeCXXCompilerId.cpp: No such file or directory
+compilation terminated.
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/bin/ld: cannot open output file a.out: No such file or directory
+collect2: error: ld returned 1 exit status
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/siddharth/Desktop/projet/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0c7e6/fast && /usr/bin/make  -f CMakeFiles/cmTC_0c7e6.dir/build.make CMakeFiles/cmTC_0c7e6.dir/build
+make[1]: Entering directory '/home/siddharth/Desktop/projet/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c7e6.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0c7e6.dir/testCCompiler.c.o   -c /home/siddharth/Desktop/projet/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Assembler messages:
+Fatal error: can't create CMakeFiles/cmTC_0c7e6.dir/testCCompiler.c.o: No such file or directory
+make[1]: *** [CMakeFiles/cmTC_0c7e6.dir/build.make:86: CMakeFiles/cmTC_0c7e6.dir/testCCompiler.c.o] Error 1
+make[1]: Leaving directory '/home/siddharth/Desktop/projet/cmake-build-debug/CMakeFiles/CMakeTmp'
+make: *** [Makefile:141: cmTC_0c7e6/fast] Error 2
+
+
+
